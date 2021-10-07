@@ -1,0 +1,30 @@
+{
+  "name": "coordinates-to-timezone",
+  "version": "1.0.0",
+  "description": "Offline microservice to convert geo coordinates to timezone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmanto/coordinates-to-timezone.git"
+  },
+  "keywords": [
+    "coordinates",
+    "timezone",
+    "nodejs",
+    "express",
+    "node-geo-tz"
+  ],
+  "author": "Daniel Mantovani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmanto/coordinates-to-timezone/issues"
+  },
+  "homepage": "https://github.com/dmanto/coordinates-to-timezone#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "geo-tz": "^6.0.1"
+  }
+}
